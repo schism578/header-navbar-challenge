@@ -16,41 +16,106 @@
     <main>
         <header>
             <div class="top-line-nav">
-                <p class="flag-icon">&#127482;&#127480; EN</p>
+                <div class="location-field">
+                    <i class="flag-icon">&#127482;&#127480; </i>
+                    <p class="english-abbr">EN</p>
+                </div>
                 <div class="icons">
-                    <span tabindex="1" class="shield"><i class="fas fa-shield-alt"></i></span>
-                    <span tabindex="2" class="help"><i class="far fa-question-circle"></i></span>
-                    <span tabindex="3" class="location"><i class="fas fa-map-marker-alt"></i></span>
-                    <span tabindex="4" class="user"><i class="fas fa-user-circle"></i></span>
-                    <span tabindex="5" class="cart"><i class="fas fa-shopping-cart"></i> 3</span>
+                    <span class="shield"><i class="fas fa-shield-alt"></i></span>
+                    <span class="help"><i class="far fa-question-circle"></i></span>
+                    <span class="location"><i class="fas fa-map-marker-alt"></i></span>
+                    <span class="user"><i class="fas fa-user-circle"></i></span>
+                    <span class="cart"><i class="fas fa-shopping-cart"></i> 3</span>
                 </div>
             </div>
             <nav>
-                <p tabindex="6" class="hamburger">&#9776;</p>
-                <img src="lincoln-electric-logo.png" class="company-logo" alt="lincoln electric logo" />
-                <ul class="navbar">
-                    <li tabindex="7" class="menu">SOLUTIONS</li>
-                    <li tabindex="8">PRODUCTS</li>
-                    <li tabindex="9">AUTOMATION</li>
-                    <li tabindex="10">EDUCATION</li>
-                    <li tabindex="11">RESOURCES</li>
-                    <li tabindex="12" class="search">Search <i class="fas fa-search"></i></li>
-                </ul>
+                <div class="nav-main">
+                    <div class="nav-left">
+                        <ul class="hamburger-box">
+                            <li>
+                                <a href="#hamburger-menu" class="hamburger" id="hamburger">&#9776;</a>
+                            </li>
+                            <li>
+                                <a href="#" class="close-menu">&#9776;</a>
+                            </li>
+                                <ul class="hamburger-menu" id="hamburger-menu">
+                                    <li>
+                                        <p>Menu</p><a href="#">&times;</a>
+                                    </li>
+                                    <li>
+                                        <p>SOLUTIONS</p><a href="#hamburger-menu-dropdown" class="hamburger-dropdown-nav">&#10095;</a>
+                                    </li>  
+                                        <ul class="hamburger-menu-dropdown" id="hamburger-menu-dropdown">
+                                            <li>
+                                                <p>Menu</p><a href="#">&#215;</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">&lt;</a><p>GO BACK</p>
+                                            </li>
+                                            <li>
+                                                <p>SOLUTIONS BY INDUSTRY</p><a href="#">&#10095;</a>
+                                            </li>
+                                            <li>
+                                                <p>SOLUTIONS BY PROCESS</p><a href="#">&#10095;</a>
+                                            </li>
+                                            <li>
+                                                <p>SOFTWARE SOLUTIONS</p><a href="#">&#10095;</a>
+                                            </li>
+                                            <li>
+                                                <p>SERVICES</p><a href="#">&#10095;</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p>PRODUCTS</p><a href="#">&#10095;</a>
+                                    </li>
+                                    <li>
+                                        <p>AUTOMATION</p><a href="#">&#10095;</a>
+                                    </li>
+                                    <li>
+                                        <p>EDUCATION</p><a href="#">&#10095;</a>
+                                    </li>
+                                    <li>
+                                        <p>RESOURCES</p><a href="#">&#10095;</a>
+                                    </li>
+                                </ul>
+                                <!--Need the rest of the links here...-->
+                            </li>
+                        </ul>
+                        <img src="lincoln-electric-logo.png" class="company-logo" alt="lincoln electric logo" />
+                    </div>
+                    <div class="mobile-icons">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-user-circle"></i>
+                        <i class="fas fa-shopping-cart"> 3</i>
+                    </div>
+                    <ul class="navbar">
+                        <li tabindex="7" class="menu">SOLUTIONS
+                            <ul class="menu-dropdown">
+                                <li><a href="#">Solutions By Industry</a></li>
+                                <li><a href="#">Solutions by Process</a></li>
+                                <li><a href="#">Software Solutions</a></li>
+                                <li><a href="#">Services</a></li>
+                            </ul>
+                        </li>
+                        <li tabindex="8">PRODUCTS</li>
+                        <li tabindex="9">AUTOMATION</li>
+                        <li tabindex="10">EDUCATION</li>
+                        <li tabindex="11">RESOURCES</li>
+                    </ul>
+                </div>
+                <div class="search-field">
+                    <p tabindex="12" class="search">Search </p>
+                    <i class="fas fa-search"></i>
+                </div>
             </nav>
-            <section>
-                <ul class="menu-dropdown">
-                    <li><a href="#">Solutions By Industry</a></li>
-                    <li><a href="#">Solutions by Process</a></li>
-                    <li><a href="#">Software Solutions</a></li>
-                    <li><a href="#">Services</a></li>
-                </ul>
-            </section>
             <section class="hero-section">
                 <h1>Welding Equipment</h1>
                 <p>Welding equiment description goes right here, lorem ipsum dolor sit amet, consectetur adipiscing
                     elit.</p>
             </section>
         </header>
+
         <section class="main-content">
             <div class="upper-sub-link">&lt; Equipment</div>
             <br>
